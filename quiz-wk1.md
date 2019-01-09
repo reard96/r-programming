@@ -36,32 +36,35 @@
 ###### 10. Suppose I have a vector `x <- c(17, 14, 4, 5, 13, 12, 10)` and I want to set all elements of this vector that are greater than 10 to be equal to 4. What R code achieves this? Select all that apply.
 - `x[x > 10] <- 4`
 
-###### 11.
+###### Use the Week 1 Quiz Data Set to answer questions 11-20.
+- *Note: It was easiest to upload this data set to [Repl.it](https://repl.it/) and run some simple code there to answer these questions.*
+
+###### 11. In the dataset provided for this Quiz, what are the column names of the dataset?
+- Ozone, Solar.R, Wind, Temp, Month, Day
+
+###### 12. Extract the first 2 rows of the data frame and print them to the console. What does the output look like?
+- ![Image of First Two Rows](/data/first_rows.png)
+
+###### 13. How many observations (i.e. rows) are in this data frame?
+- 153
+
+###### 14. Extract the last 2 rows of the data frame and print them to the console. What does the output look like?
+- ![Image of Last Two Rows](/data/last_rows.png)
+
+###### 15. What is the value of Ozone in the 47th row?
+- 21
+
+###### 16. How many missing values are in the Ozone column of this data frame?
+- 37
+
+###### 17. What is the mean of the Ozone column in this dataset? Exclude missing values (coded as NA) from this calculation.
 -
 
-###### 12.
+###### 18. Extract the subset of rows of the data frame where Ozone values are above 31 and Temp values are above 90. What is the mean of Solar.R in this subset?
 -
 
-###### 13.
+###### 19. What is the mean of "Temp" when "Month" is equal to 6?
 -
 
-###### 14.
--
-
-###### 15.
--
-
-###### 16.
--
-
-###### 17.
--
-
-###### 18.
--
-
-###### 19.
--
-
-###### 20.
+###### 20. What was the maximum ozone value in the month of May (i.e. Month is equal to 5)?
 -
