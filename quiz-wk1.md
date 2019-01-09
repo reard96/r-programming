@@ -1,4 +1,4 @@
-## Week 1 quiz
+## Week 1 Quiz
 
 ###### 1. R was developed by statisticians working at
 - The University of Auckland
