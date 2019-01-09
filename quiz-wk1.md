@@ -23,11 +23,12 @@
 ###### 6. If I have two vectors `x <- c(1,3, 5)` and `y <- c(3, 2, 10)`, what is produced by the expression `cbind(x, y)`?
 - a matrix with 2 columns and 3 rows
 
-###### 7.
--
+###### 7. A key property of vectors in R is that
+- elements of a vector all must be of the same class
 
-###### 8.
--
+###### 8. Suppose I have a list defined as `x <- list(2, "a", "b", TRUE)`. What does `x[[1]]` give me? Select all that apply.
+- a list containing the number 2
+- a numeric vector containing the element 2
 
 ###### 9.
 - 
