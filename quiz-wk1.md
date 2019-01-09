@@ -6,6 +6,7 @@
 ###### 2. The definition of free software consists of four freedoms (freedoms 0 through 3). Which of the following is NOT one of the freedoms that are part of the definition? Select all that apply.
 - The freedom to prevent users from using the software for undesirable purposes.
 - The freedom to restrict access to the source code for the software.
+- The freedom to sell the software for any price.
 
 ###### 3. In R the following are all atomic data types EXCEPT: (Select all that apply)
 - list
@@ -26,15 +27,16 @@
 ###### 7. A key property of vectors in R is that
 - elements of a vector all must be of the same class
 
-###### 8. Suppose I have a list defined as `x <- list(2, "a", "b", TRUE)`. What does `x[[1]]` give me? Select all that apply.
-- a list containing the number 2
-- a numeric vector containing the element 2
+###### 8. Suppose I have a list defined as `x <- list(2, "a", "b", TRUE)`. What does `x[[2]]` give me? Select all that apply.
+- a character vector containing the letter "a"
+- a character vector of length 1
 
-###### 9. Suppose I have a vector `x <- 1:4` and `y <- 2:3`. What is produced by the expression `x + y`?
-- an integer vector with the values 3, 5, 5, 7
+###### 9. Suppose I have a vector `x <- 1:4` and `y <- 2`. What is produced by the expression `x + y`?
+- an integer vector with the values 3, 4, 5, 6
 
 ###### 10. Suppose I have a vector `x <- c(17, 14, 4, 5, 13, 12, 10)` and I want to set all elements of this vector that are greater than 10 to be equal to 4. What R code achieves this? Select all that apply.
 - `x[x > 10] <- 4`
+- `x[x >= 11] <- 4`
 
 ###### Use the Week 1 Quiz Data Set to answer questions 11-20.
 - *Note: It was easiest to upload this data set to [Repl.it](https://repl.it/) and run some simple code there to answer these questions.*
