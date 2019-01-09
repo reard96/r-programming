@@ -21,7 +21,7 @@
 - character
 
 ###### 6. If I have two vectors `x <- c(1,3, 5)` and `y <- c(3, 2, 10)`, what is produced by the expression `cbind(x, y)`?
-- a 2 by 3 matrix
+- a matrix with 2 columns and 3 rows
 
 ###### 7. A key property of vectors in R is that
 - elements of a vector all must be of the same class
