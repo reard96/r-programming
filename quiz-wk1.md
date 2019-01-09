@@ -21,7 +21,7 @@
 - character
 
 ###### 6. If I have two vectors `x <- c(1,3, 5)` and `y <- c(3, 2, 10)`, what is produced by the expression `cbind(x, y)`?
-- a matrix with 2 columns and 3 rows
+- a 2 by 3 matrix
 
 ###### 7. A key property of vectors in R is that
 - elements of a vector all must be of the same class
@@ -34,7 +34,7 @@
 - an integer vector with the values 3, 5, 5, 7
 
 ###### 10. Suppose I have a vector `x <- c(17, 14, 4, 5, 13, 12, 10)` and I want to set all elements of this vector that are greater than 10 to be equal to 4. What R code achieves this? Select all that apply.
--
+- `x[x > 10] <- 4`
 
 ###### 11.
 -
