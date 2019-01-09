@@ -61,10 +61,10 @@
 - 42.1
 
 ###### 18. Extract the subset of rows of the data frame where Ozone values are above 31 and Temp values are above 90. What is the mean of Solar.R in this subset?
--
+- 212.8
 
 ###### 19. What is the mean of "Temp" when "Month" is equal to 6?
--
+- 79.1
 
 ###### 20. What was the maximum ozone value in the month of May (i.e. Month is equal to 5)?
--
+- 115
