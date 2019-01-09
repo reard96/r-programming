@@ -30,10 +30,10 @@
 - a list containing the number 2
 - a numeric vector containing the element 2
 
-###### 9.
-- 
+###### 9. Suppose I have a vector `x <- 1:4` and `y <- 2:3`. What is produced by the expression `x + y`?
+- an integer vector with the values 3, 5, 5, 7
 
-###### 10.
+###### 10. Suppose I have a vector `x <- c(17, 14, 4, 5, 13, 12, 10)` and I want to set all elements of this vector that are greater than 10 to be equal to 4. What R code achieves this? Select all that apply.
 -
 
 ###### 11.
