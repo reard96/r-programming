@@ -1,4 +1,4 @@
-## Deep convolutional models
+## Week 1 quiz
 
 ###### 1. R was developed by statisticians working at
 - The University of Auckland
@@ -58,7 +58,7 @@
 - 37
 
 ###### 17. What is the mean of the Ozone column in this dataset? Exclude missing values (coded as NA) from this calculation.
--
+- 42.1
 
 ###### 18. Extract the subset of rows of the data frame where Ozone values are above 31 and Temp values are above 90. What is the mean of Solar.R in this subset?
 -
