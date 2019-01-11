@@ -14,7 +14,7 @@ complete <- function(directory, id = 1:332) {
     data <- data[complete.cases(data), ]
     num_complete <- nrow(data)
 
-    df[nrow(df) + 1, ] = list(i, num_complete)
+    df[nrow(df) + 1, ] <- list(i, num_complete)
   }
   df
 }
