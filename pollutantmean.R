@@ -9,7 +9,7 @@ pollutantmean <- function(directory, pollutant, id = 1:332) {
     data <- read.csv(file_path)
 
     # Grab correct column
-    d <- data[,pollutant]
+    d <- data[ ,pollutant]
 
     # Data cleaning
     d <- d[!is.na(d)]

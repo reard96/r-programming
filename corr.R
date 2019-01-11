@@ -4,6 +4,7 @@ corr <- function(directory, threshold = 0) {
   locations <- subset(locations, nobs > threshold)
 
   corrs <- vector()
+
   for (i in locations$id) {
     # Grab data from relevant csv
     file_name <- sprintf('%03d.csv', i)
@@ -11,7 +12,7 @@ corr <- function(directory, threshold = 0) {
     data <- read.csv(file_path)
 
     data <- data[complete.cases(data), ]
-    corrs <- c(cor(data$nitrate, data$sulfate))
+    corrs <- c(corrs, cor(data$nitrate, data$sulfate))
 
   }
   corrs
