@@ -1,7 +1,6 @@
 best <- function(state, outcome) {
   ## Read outcome data
-  ## ../data/ProgAssignment3-data/
-  data <- read.csv('outcome-of-care-measures.csv', colClasses = "character")
+  data <- read.csv('../data/ProgAssignment3-data/outcome-of-care-measures.csv', colClasses = "character")
 
   ## Only keep relevant columns
   data <- data[c(2, 7, 11, 17, 23)]
