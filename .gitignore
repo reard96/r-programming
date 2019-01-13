@@ -1,5 +1,7 @@
 # Data uploaded should be zipped
 data/specdata
+data/ProgAssignment3-data
+programming_assigment-3/ProgAssignment3-data
 
 # R-specific .gitignore
 # History files
