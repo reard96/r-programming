@@ -8,7 +8,7 @@ corr <- function(directory, threshold = 0) {
   for (i in locations$id) {
     # Grab data from relevant csv
     file_name <- sprintf('%03d.csv', i)
-    file_path <- paste('./data', directory, file_name, sep='/')
+    file_path <- paste('../data', directory, file_name, sep='/')
     data <- read.csv(file_path)
 
     data <- data[complete.cases(data), ]
